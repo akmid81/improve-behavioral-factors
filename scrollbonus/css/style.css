@@ -1,0 +1,64 @@
+.div-bonus * {
+   margin: 0;
+   padding: 0;
+   font-size: 14px;
+   border: none;
+}
+
+.div-bonus {
+   position: fixed;
+   right: 1em;
+   bottom: 1em;
+   background-color: rgb(55, 55, 55);
+   width: 300px;
+   height: 120px;
+   color: white;
+   padding: 0.5em 1em;
+   font-size: 14px;
+   font-family: Verdana, Tahoma, sans-serif;
+   opacity: 0;
+   transition: opacity 2s;
+   overflow: hidden;
+   box-sizing: border-box;
+}
+
+.bonus-title {
+   font-weight: 600;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: .5em;
+}
+
+.bonus-close {
+   cursor: pointer;
+}
+
+.bonus-body {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.bonus-text {
+   width: 260px;
+   text-align: center;
+   min-height: 45px;
+}
+
+#bonus-timer {
+   font-size: 22px;
+}
+
+.show-bonus-button {
+   height: 2em;
+   font-size: 18px;
+   border: 2px solid #333;
+   background-color: #aaa;
+   margin: auto;
+   padding: 0 1em;
+   cursor: pointer;
+}
+
+.show-bonus-button:hover {
+   background-color: #bbb;
+}
